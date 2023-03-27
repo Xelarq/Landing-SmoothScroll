@@ -53,9 +53,9 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	z-index: 3;
 	border-style: none;
 }
-.mobile-menu-close {
+.mobile-nav__menu-close {
 	display: flex;
-	align-items: end;
+
 	justify-content:center;
 }
 #close-btn {
@@ -63,7 +63,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	border-radius: 5px;
 }
 
-.mobile-nav-menu {
+.mobile-nav__menu {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -74,40 +74,35 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	line-height: 70px;
 	
 }
-.mobile-nav-menu-wrapper{
+.mobile-nav{
 	position: absolute;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	width: 100vw;
 	height: 100vh;
 	top: 0;
 	left: 100vw;
-	background-color: #050505;
 	overflow-y: auto;
 	transform: translateX(0);
-	transition: .15s cubic-bezier(.19,1,.22,1);
+	transition: .4s;
 	color: #fff;
-	background-image: url(./Images/wallpaper3.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 50%;
-	background-attachment: fixed;
 	z-index: 4;
 	box-sizing: border-box;
 }
-.mobile-nav-menu-list {
+.mobile-nav__menu-list {
 	list-style: none;
 	
 }
-.mobile-nav-menu-list li {
+.mobile-nav__menu-list li {
 	text-decoration: none;
-	transition: .15s cubic-bezier(.455,.03,.515,.955);
+	transition: .3s;
 	color: inherit;
 	max-width: 30rem;
 	z-index: 4;
 }
-.mobile-nav-menu-list li a:hover {
+.mobile-nav__menu-list li a:hover {
 background-size: 0 3px, 100% 3px;
 }
-.mobile-nav-menu-list li:hover {
+.mobile-nav__menu-list li:hover {
 	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

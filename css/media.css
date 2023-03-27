@@ -1,68 +1,65 @@
 @media (max-width: 1015px) {
 	html {
-			font-size: 70px;
-			overflow-x: hidden;
+		font-size: 70px;
+		overflow-x: hidden;
 	}
 	.main {
-			width:100%;
-			padding: 0;
-			margin: 0;
+		width:100%;
+		padding: 0;
+		margin: 0;
 	}
 	.nav {
-			display: none;
+		display: none;
 	}
 	.log {
-			display: none;
+		display: none;
 	}
 	.logo {
-			display: none;
+		display: none;
 	}
 	.burger-btn-wrapper {
-			display: flex;
-			align-items: center;
-			justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	.header {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-			text-align: center;
-			}
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		text-align: center;
+	}
 	.header__text {
 		align-items: center;
 	}
-	
 	.header__socials-container {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			position: relative;
-			justify-content: center;
-			width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		position: relative;
+		justify-content: center;
+		width: 100%;
 	}
 	.header__socials-container p {
-			font-size: 30px;
-			margin-bottom: 20px;
-			writing-mode: unset;
-			
+		font-size: 30px;
+		margin-bottom: 20px;
+		writing-mode: unset;
 	}
 	.header__socials ul {
-			display: flex;
-			width: 100%;
-			justify-content: center;
-			align-items: center;
-			padding: 5px 20px;
-
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		padding: 5px 20px;
 	}
 	.header__socials li{
 		margin-top: 23px;
 	}
 	.header__socials li + li {
-			margin-left: 15px;
+		margin-left: 15px;
 	}
 	.header__socials {
-			display: flex;
-			width: 100%;
+		display: flex;
+		width: 90%;
 	}
 	.footer__socials-icon {
 		width: 50px;
