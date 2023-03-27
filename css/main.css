@@ -1,0 +1,105 @@
+html {
+		font-family: 'Noto Serif Tamil', serif;
+		font-family: 'Raleway', sans-serif;
+		font-family: 'Roboto', sans-serif;
+    background-image: url(../img/wallpaper_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    background-attachment: fixed;
+    color: white;
+    font-size: 50px;
+		overflow-x: hidden;
+}
+.content, .wrapper, .container, .container-wrapper, .container-wrapper::after, .container-wrapper::before, .header, .header-text,
+ .header-socials-container, .header-socials, .paragraph, .paragraph-text, .paragraph-img-wrapper > * {
+	will-change: transform;
+}
+a {
+	background: linear-gradient(to right, transparent, transparent), linear-gradient(to right, rgba(63,94,251,1), rgba(252,70,107,1));
+	background-size: 100% 3px, 0 3px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size .4s;
+}
+
+.main {
+	background-color: transparent;
+  margin: 0 auto;
+  width: 90%;
+	position: relative;
+  justify-content: space-between;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+.paragraph {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	font-size: .4rem;
+	width: 100%;
+	z-index: 3;
+}
+.paragraph h2 {
+	position: relative;
+	margin-left: 2.5rem;
+	margin-bottom: 1rem;
+	font-size: 0.7rem;
+	font-weight: 700;
+}
+.paragraph h2:before {
+	content: attr(data-number);
+	position: absolute;
+	top: -100px;
+	left: -150px;
+	color: rgb(255, 255, 255);
+	font-size: 170px;
+	font-weight: 1000;
+	opacity: 0.5;
+	z-index: -1;
+}
+.paragraph__text {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	height: 100%;
+	padding: 25px 25px;
+}
+.paragraph__img-wrapper{
+	display: flex;
+	width: 700px;
+	height: 100%;
+	border-radius: 0;
+	padding: 25px 35px;
+}
+.paragraph__img-wrapper img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 25px;
+}
+.paragraph a:hover {
+	background-size: 0 3px, 100% 3px;
+}
+.paragraph__header-link {
+	display: block;
+	position: relative;
+	align-self: end;
+}
+.paragraph__header-link:hover {
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.paragraph__footer-link {
+	display: block;
+	position: relative;
+	align-self: end;
+}
+.paragraph__footer-link:hover {
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
